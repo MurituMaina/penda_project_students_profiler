@@ -109,6 +109,17 @@ function Registration() {
           />
           <br />
           <br />
+          <label>Course of Study</label>
+          <br />
+          <br />
+          <input 
+            type="text"
+            name="course"
+            value={students.course}
+            onChange ={handleStudentsInputs}
+          />
+          <br />
+          <br />
           <label>Year You Joined College: </label>
           <br />
           <br />
@@ -133,7 +144,7 @@ function Registration() {
           />
           <br />
           <br />
-          <label>Completion of Year & Month</label>
+          <label>Completion of Year</label>
           <br />
           <br />
           <input
@@ -153,7 +164,18 @@ function Registration() {
             type="text"
             name="job"
             value={students.job}
-            onChange={handleStudentDetails}
+            onChange={handleStudentsInputs}
+          />
+          <br />
+          <br />
+          <label>Employer/Company</label>
+          <br />
+          <br />
+          <input 
+            type="text"
+            name="employer"
+            value={students.employer}
+            onChange ={handleStudentsInputs}
           />
           <br />
           <br />
