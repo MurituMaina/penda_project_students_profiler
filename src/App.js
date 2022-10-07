@@ -7,7 +7,7 @@ import About from "./About";
 import Registration from "./Registration";
 import Footer from "./Footer";
 import "./App.css";
-import Feedback from "./Feedback";
+
 
 function App() {
   const [students, setStudents] = useState([]);
