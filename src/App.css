@@ -23,7 +23,6 @@
   margin-left: 20px;
   width: 23%;
   border-radius: 20px;
-  /* border: 2px solid black; */
   margin-bottom: 30px;
   display: block;
   flex-direction: column;
@@ -51,7 +50,6 @@
 .home {
   margin:auto;
   width: 75%;
-  /* height: 70vmin; */
   font-size: larger;
   color: #1b4d89;
 }
@@ -65,20 +63,9 @@ li {
   padding-right: 20px;
 
 }
-/* 
-li:link {
-
-} */
-
-/* li:hover {
-  background: #6db700;
-  background-color: red;
-
-} */
 
 .links {
   color: green;
-  /* background: #6db784; */
   list-style-type: none;
   text-Decoration: "underline";
 }
@@ -87,9 +74,7 @@ li:link {
     margin: 0 ;
   font-size: 50px;
   color:blue !important
-  /* height: 5vh; */
-  /* width: 100%; */
-}
+ }
 
 .icon {
   width: 40px;
@@ -143,18 +128,17 @@ li:link {
 .foreign{
   background-color: #fff;
   width:15%;
-  /* color:#ffffff !important; */
   text-decoration-color: #ffffff !important;
   margin:auto;  
 }
 .left{
-  /* float: left; */
   background-color: green;
   margin: 10px;
   padding: 10px;
 }
 .centre{
   margin: auto;
+
 }
 .right{
   float: right;
@@ -162,17 +146,14 @@ li:link {
 
 .history {
   font-size: 20px;
-  /* display: flex; */
   padding: 20px;
   justify-content: flex-end;
 }
 .loc-history:hover{
-  /* transform: scaleX(1.1); */
   background-color: #1b4d89;
+  color: #fff;
 }
-/* .loc-history>p:hover{
-  transform: scaleX(1.1);
-} */
+
 .loc-history{
   background-color: whitesmoke;
   margin: 2px;
@@ -189,7 +170,7 @@ li:link {
   justify-content: center;
   text-align: center;
   background-color: whitesmoke;
-  /* margin: 0 12.5% 0 12.5%;  */
+  
 }
 
 .footer {
