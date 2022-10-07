@@ -10,11 +10,13 @@ import "./App.css";
 import Feedback from "./Feedback";
 
 function App() {
-  const [students, setStudents]= useState([])
-  useEffect(()=>{fetch("http://localhost:3000/student")
-  .then(resp => resp.json())
-  .then(setStudents)},[])
-  console.log(students)
+  const [students, setStudents] = useState([]);
+  useEffect(() => {
+    fetch("http://localhost:3000/student")
+      .then((resp) => resp.json())
+      .then(setStudents);
+  }, []);
+  console.log(students);
   return (
     <div className="main">
       <NavBar />
@@ -23,16 +25,13 @@ function App() {
           <History />
         </Route>
         <Route path="/about">
-          <About students ={students}/>
+          <About students={students} />
         </Route>
         <Route path="/registration">
           <Registration />
         </Route>
         <Route path="/">
           <Home />
-        </Route>
-        <Route path="/feedback">
-          <Feedback />
         </Route>
       </Switch>
       <Footer />
