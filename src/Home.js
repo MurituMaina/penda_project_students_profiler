@@ -17,10 +17,7 @@ function Home() {
         terms of progress and what they engage with and where they are in school
         or even work.
       </p>
-      <div className="photoshow">
-      <img src="download.jpeg" alt="" className="slide" />
-      <img src="pic3.jpeg" alt="" className="slide" />
-      </div>
+      
       </div>
     </div>
   );
