@@ -113,7 +113,9 @@ function Registration() {
           <br />
           <br />
           <input
-            type="month"
+            type="number"
+            min ="2008"
+            max= "2100"
             name="year"
             value={students.year}
             onBlur={handleStudentsInputs}
@@ -135,8 +137,10 @@ function Registration() {
           <br />
           <br />
           <input
-            type="month"
+            type="number"
             name="yearcompleted"
+            min="2008"
+            max="2030"
             value={students.yearcompleted}
             onBlur={handleStudentsInputs}
           ></input>
