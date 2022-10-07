@@ -222,14 +222,10 @@ li:link {
 
   .slide {
     animation-direction: slide-direction normal;
-    /* animation: form-spin infinite 20s linear */
+  
   }
 }
-/*
-media only screen and (max-width: 600px) {
-  .example {background: red;}
-}
-*/
+
 @media only screen and (max-width: 600px) {
   .history{
     display: block;
@@ -247,13 +243,3 @@ media only screen and (max-width: 600px) {
   }
 }
 
-/* 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  } 
- } */
