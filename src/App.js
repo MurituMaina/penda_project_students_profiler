@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Route, Switch } from "react-router-dom";
-import NavBar from "./Navbar";
-import Home from "./Home";
-import History from "./History";
 import About from "./About";
-import Registration from "./Registration";
-import Footer from "./Footer";
 import "./App.css";
+import Footer from "./Footer";
+import History from "./History";
+import Home from "./Home";
+import NavBar from "./Navbar";
+import Registration from "./Registration";
 
 
 function App() {
