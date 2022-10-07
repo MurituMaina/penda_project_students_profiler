@@ -3,15 +3,25 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <h1>New Hope Initiative</h1>
+    <div className="home">
+    
+      <h1>Penda project Students</h1>
+      
       <p>
-        Kenya is home to the majority of our projects. Specifically, we mainly
-        work in the slum of Kibera (one of the world's largest) in Nairobi. Here
-        we help bring education, health, safety, work, and hope through our
-        projects: the New Hope Academy, the Kibera Penda Project, and Project
-        Biashara. Learn more about each of these projects and how you can get
-        involved by clicking the links below.
+        Kibera Penda Project has been around for over a decade. Over this period
+        many students who went to New Hope Kibera School have had the
+        opportunity to go to through school through the suport of well wishers.
       </p>
+      <p>
+        Over time, many have gone ahead and can be able to track their Status in
+        terms of progress and what they engage with and where they are in school
+        or even work.
+      </p>
+      <div className="photoshow">
+      <img src="download.jpeg" alt="" className="slide" />
+      <img src="pic3.jpeg" alt="" className="slide" />
+      </div>
+      </div>
     </div>
   );
 }
