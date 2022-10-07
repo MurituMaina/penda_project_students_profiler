@@ -205,6 +205,9 @@ li:link {
 }
 .date{
   background-color: #6db700;
+  color: #ffffff;
+  margin: 0 -10px 0 -10px;
+  font-size: 30px;
 }
 
 

@@ -312,6 +312,7 @@
       "fname": "Donald",
       "lname": "Duck",
       "stdemail": "exam@example.com",
+      "image": "https://www.pngmart.com/files/22/Xi-Jinping-PNG-File.png",
       "year": 2010,
       "ageOnProject": 10,
       "college": "Random University",
@@ -348,33 +349,6 @@
       "job": "HR assisstant",
       "employer": "Here and there Ltd  ",
       "id": 24
-    },
-    {
-      "fname": "Donald",
-      "lname": "Duck",
-      "image": "",
-      "stdemail": "exam@example.com",
-      "year": "",
-      "ageOnProject": "5",
-      "college": "Student College",
-      "course": "",
-      "yearcompleted": "",
-      "job": "",
-      "employer": "",
-      "id": 25
-    },
-    {
-      "image": "https://www.pngmart.com/files/22/Xi-Jinping-PNG-File.png",
-      "id": 26
-    },
-    {
-      "id": 27
-    },
-    {
-      "id": 28
-    },
-    {
-      "id": 29
     }
   ]
 }
