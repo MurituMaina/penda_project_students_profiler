@@ -53,11 +53,7 @@ function History() {
 
       <div className="outLinks">
         <div className="foreign left">
-          <a
-            className="foreign"
-            href="http://www.kiberapendaproject.com/"
-            target="_blank"
-          >
+          <a className="foreign" href="http://www.kiberapendaproject.com/">
             Penda Project
             <img
               src="https://static.spacecrafted.com/f9326f2bffae4b19ac5c625ae87e8b2e/i/b22fcc3eacab4ca9bd722f25ba60774b/1/5feFb8zhrk/white.png"
@@ -71,7 +67,6 @@ function History() {
           <a
             className="foreign"
             href="https://newhopeinitiative.org/projects/kenya/new-hope-academy"
-            target="_blank"
           >
             New Hope Academy
             <img
@@ -83,11 +78,7 @@ function History() {
           </a>
         </div>
         <div className="foreign right">
-          <a
-            className="foreign"
-            href="https://projectbiashara.org/"
-            target="_blank"
-          >
+          <a className="foreign" href="https://projectbiashara.org/">
             Biashara
             <img
               src="https://cdn.shopify.com/s/files/1/0374/7101/t/3/assets/logo.png?v=143475703999969975911392836679"
