@@ -41,7 +41,7 @@ function History() {
           <p>
             Project Biashara began in 2009 as a way to help women living in
             Kibera, one of the world's largest slums, earn an income and provide
-            for their families.{" "}
+            for their families.
           </p>
           <p>
             What started as a micro loan project to help these women start small
@@ -79,7 +79,7 @@ function History() {
         </div>
         <div className="foreign right">
           <a className="foreign" href="https://projectbiashara.org/">
-            Biashara
+            Biashara Project
             <img
               src="https://cdn.shopify.com/s/files/1/0374/7101/t/3/assets/logo.png?v=143475703999969975911392836679"
               alt=""
