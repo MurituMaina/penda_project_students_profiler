@@ -129,7 +129,7 @@ function Registration() {
             max= "2100"
             name="year"
             value={students.year}
-            onBlur={handleStudentsInputs}
+            onChange={handleStudentsInputs}
           />
           <br />
           <br />
@@ -153,7 +153,7 @@ function Registration() {
             min="2008"
             max="2030"
             value={students.yearcompleted}
-            onBlur={handleStudentsInputs}
+            onChange={handleStudentsInputs}
           ></input>
           <br />
           <br />
