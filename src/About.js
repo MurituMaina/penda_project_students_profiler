@@ -3,11 +3,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 function About({ students }) {
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-
   if (students != null) {
     return (
       <div>
@@ -16,7 +11,6 @@ function About({ students }) {
           <NavLink to="/registration">Registration</NavLink>
         </button>
         <h2 id="abt">About Our Students</h2>
-
         <div className="studentCard">
           {students.map((student, index) => {
             return (
@@ -42,11 +36,13 @@ function About({ students }) {
           })}
         </div>
         <NavLink to="/">
-            <button>Go Home</button>
-        </NavLink>&nbsp;&nbsp;
-        <NavLink to="/registration"><button>Registration</button></NavLink>&nbsp;&nbsp;
-        
-
+          <button>Go Home</button>
+        </NavLink>
+        &nbsp;&nbsp;
+        <NavLink to="/registration">
+          <button>Registration</button>
+        </NavLink>
+        &nbsp;&nbsp;
       </div>
     );
   } else {
