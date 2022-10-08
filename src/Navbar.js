@@ -8,7 +8,7 @@ function Navbar() {
     <div className="links navbar">
       <ul>
       <li>
-        <NavLink to="/"><img alt="logo" src={penda}/></NavLink>
+        <NavLink to="/"><img alt="logo" className="icon" src={penda}/></NavLink>
       </li>
         <li>
           <NavLink to="/">Home</NavLink>
