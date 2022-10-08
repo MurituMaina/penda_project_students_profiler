@@ -11,10 +11,15 @@ import Registration from "./Registration";
 
 function App() {
   const [students, setStudents] = useState([]);
+  const[verses, setVerses] = useState([]);
   useEffect(() => {
     fetch("http://localhost:3000/student")
       .then((resp) => resp.json())
       .then(setStudents);
+
+      fetch("http://localhost:3000/verses")
+      .then((resp) => resp.json())
+      .then(setVerses);
   }, []);
   console.log(students);
   return (
@@ -31,7 +36,7 @@ function App() {
           <Registration />
         </Route>
         <Route path="/">
-          <Home />
+          <Home verses={verses}/>
         </Route>
       </Switch>
       <Footer />
