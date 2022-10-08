@@ -1,7 +1,7 @@
 import React from "react";
 import SlideShow from "./SlideShow";
 import wheel from "./images/wheel.png";
-import animal from "./images/animal.jpeg";
+
 
 function Home({ verses }) {
   return (
