@@ -79,7 +79,7 @@ function History() {
         </div>
         <div className="foreign right">
           <a className="foreign" href="https://projectbiashara.org/">
-            Biashara Project
+            Biashara Project <br />
             <img
               src="https://cdn.shopify.com/s/files/1/0374/7101/t/3/assets/logo.png?v=143475703999969975911392836679"
               alt=""
