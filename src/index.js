@@ -1,25 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
 
-ReactDOM.render(
+import { createRoot } from "react-dom/client";
+const container = document.getElementById("root");
+const root = createRoot(container);
+root.render(
   <Router>
     <App />
-  </Router>,
-  document.getElementById("root")
+  </Router>
 );
-/*
-function AppWithCallbackAfterRender() {
-  useEffect(() => {
-    console.log('rendered');
-  });
-
-  return <App />
-}
-
-const container = document.getElementById('app');
-const root = createRoot(container);
-root.render(<AppWithCallbackAfterRender />);
-
-*/
