@@ -38,7 +38,6 @@
 .studentCard {
   padding-left: 120px;
   margin: auto;
-  /* border: 2px solid #1b4d89; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -47,14 +46,27 @@
 
 }
 
+.each-slide {
+  font-size: 20px;
+  color: #1b4d89
+}
+
 .home {
-  margin:auto;
+  margin: auto;
   width: 75%;
   font-size: larger;
   color: #1b4d89;
 }
-.foreign:link, .foreign:visited, .foreign:active{
-color:green;
+
+.foreign:link,
+.foreign:visited,
+.foreign:active {
+  color: green;
+}
+
+.wheel {
+  width: 200px;
+  height: 200px;
 }
 
 li {
@@ -70,22 +82,28 @@ li {
   text-Decoration: "underline";
 }
 
+.navbar>img {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+}
+
 .navbar {
-    margin: 0 ;
+  margin: 0;
   font-size: 50px;
-  color:blue !important
- }
+  color: blue !important
+}
 
 .icon {
   width: 40px;
   height: 40px;
-  
+
 }
 
 .form {
   justify-content: center;
   color: #1b4d89;
-  height: 110vmin;
+  height: 130vmin;
   width: 30%;
   margin: auto;
   background-color: #fff;
@@ -93,31 +111,40 @@ li {
   border-radius: 20px;
 
 }
-.register{
+
+.register {
   padding: 20px;
-  color:#fff;
+  color: #fff;
   border-radius: 20px;
   height: 150vmin;
   background-color: #6db784;
 }
-.registerForm{
-  float:right;
+
+.registerForm {
+
+  float: right;
+  font-size: 20px;
+  margin-right: 10px;
+  ;
   background-color: green;
   color: #ffffff !important;
 }
-.closebtn_2{
+
+.closebtn_2 {
   float: left;
   background-color: white;
   padding: 20px;
   border: #ffffff;
 }
-.closebtn_1{
+
+.closebtn_1 {
   float: right;
   background-color: white;
   padding: 10px;
   font-size: 20px;
   border: #ffffff;
 }
+
 .outLinks {
   height: 10vmin;
   display: flex;
@@ -125,22 +152,29 @@ li {
   background-color: white;
   padding-right: 50px;
 }
-.foreign{
+
+.foreign {
   background-color: #fff;
-  width:15%;
-  text-decoration-color: #ffffff !important;
-  margin:auto;  
+  width: 15%;
+  height: 10vmin;
+  margin: auto;
 }
-.left{
-  background-color: green;
-  margin: 10px;
+
+.foreign>img {
+  margin: auto;
+}
+
+.left {
+  margin: 0 0 0 10px;
   padding: 10px;
 }
-.centre{
+
+.centre {
   margin: auto;
 
 }
-.right{
+
+.right {
   float: right;
 }
 
@@ -149,18 +183,20 @@ li {
   padding: 20px;
   justify-content: flex-end;
 }
-.loc-history:hover{
+
+.loc-history:hover {
   background-color: #1b4d89;
   color: #fff;
 }
 
-.loc-history{
+.loc-history {
   background-color: whitesmoke;
   margin: 2px;
   padding: auto;
-  
+
 }
-.photoShow{
+
+.photoShow {
   background-color: tomato;
 
 }
@@ -170,21 +206,21 @@ li {
   justify-content: center;
   text-align: center;
   background-color: whitesmoke;
-  
+
 }
 
 .footer {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   color: #f9f9f9;
   background-color: #6db700;
-  margin: -10px;
   padding: 50px;
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin: 20px -10px -20px -10px;
   text-align: justify;
 }
-.date{
+
+.date {
   background-color: #6db700;
   color: #ffffff;
   margin: 0 -10px 0 -10px;
@@ -195,29 +231,42 @@ li {
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    /* infinite 20s */
+    animation: App-logo-spin cinfinite 20s linear;
   }
 
   .form {
-    animation: form-spin  1s linear;
+    animation: form-spin 0.5s linear;
     /* animation: form-scale-up-center 1s ease 0s 1 normal none; */
   }
 
   .slide {
     animation-direction: slide-direction normal;
-  
+
+  }
+
+  .wheel {
+    animation: wheel-spin infinite 20s linear;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .history{
+  .history {
     display: block;
   }
 }
 
 
 @keyframes form-spin {
+  from {
+    transform: rotate(-1deg);
+  }
+
+  to {
+    transform: rotate(1deg);
+  }
+}
+
+@keyframes wheel-spin {
   from {
     transform: rotate(0deg);
   }
@@ -226,4 +275,3 @@ li {
     transform: rotate(360deg);
   }
 }
-
