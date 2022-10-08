@@ -1,4 +1,28 @@
 {
+  "verses": [
+    {
+      "id":1,
+      "verse": "NET Bible: Give, and it will be given to you: A good measure, pressed down, shaken together, running over, will be poured into your lap. For the measure you use will be the measure you receive.",
+      "ref": " Luke 6:38 ",
+      "image": "./images/animal.jpeg"
+    },
+    {"id":2,
+      "verse": "NET Bible: Give, and it will be given to you: A good measure, pressed down, shaken together, running over, will be poured into your lap. For the measure you use will be the measure you receive.",
+      "ref": " Luke 6:38 ",
+      "image": "./images/squirrel.jpeg"
+    },
+    {
+      "id":3,
+      "verse": "NET Bible: Give, and it will be given to you: A good measure, pressed down, shaken together, running over, will be poured into your lap. For the measure you use will be the measure you receive.",
+      "ref": " Luke 6:38 ",
+      "image": "./images/sunrise.jpeg"
+    },
+    {"id":4,
+      "verse": "NET Bible: Give, and it will be given to you: A good measure, pressed down, shaken together, running over, will be poured into your lap. For the measure you use will be the measure you receive.",
+      "ref": " Luke 6:38 ",
+      "image": "./images/wave.jpeg"
+    }
+  ],
   "student": [
     {
       "id": 1,
@@ -353,28 +377,30 @@
     {
       "fname": "Donald",
       "lname": "Duck",
-      "image": "",
+      "image": "https://www.pngmart.com/files/22/Xi-Jinping-PNG-File.png",
       "stdemail": "exam@example.com",
       "year": "",
-      "ageOnProject": "11",
+      "ageOnProject": "9",
       "college": "Student College",
-      "course": "",
+      "course": "Bsc. Mathematics ",
       "yearcompleted": "",
-      "job": "",
+      "job": "Teacher",
       "employer": "",
       "id": 25
     },
     {
+      "fname": "Donald",
+      "lname": "Duck",
       "image": "https://www.pngmart.com/files/22/Xi-Jinping-PNG-File.png",
+      "stdemail": "exam@example.com",
+      "year": "",
+      "ageOnProject": "10",
+      "college": "Student College",
+      "course": "Bsc. Mathematics ",
+      "yearcompleted": "",
+      "job": "Teacher",
+      "employer": "Alliance",
       "id": 26
-    },
-    {
-      "year": "2008",
-      "yearcompleted": "2008",
-      "id": 27
-    },
-    {
-      "id": 28
     }
   ]
 }
