@@ -1,8 +1,42 @@
 // import logo from "./logo.svg";
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { FaSearch } from "react-icons/fa";
 
-function About({ students }) {
+function About({ students, setStudents }) {
+  function handleSearchStudent(e) {
+    e.preventDefault();
+    const search = e.target.value;
+    let newStudents = [];
+    console.log(search);
+    // console.log(e.target)
+    console.log(students);
+
+    if (!search || search === "") {
+      console.log("nothing here");
+      // document.getElementsByClassName(
+      //   "searchform"
+      // ).innerHTML = `Nothing Matches:", ${search}`;
+      // console.log("Nothing Matches:", search);
+
+      // newStudents = [];
+      setStudents(students);
+      console.log(students);
+    } else {
+      students.filter((student) => {
+          let first = student.fname;
+          let last = student.lname;
+          if( first === search || last === search){
+          console.log(student.fname, student.lname)
+           newStudents.push(student)
+           return setStudents(newStudents)
+        }
+       
+      });
+    }
+      console.log(newStudents);
+  }
+
   if (students != null) {
     return (
       <div>
@@ -11,7 +45,20 @@ function About({ students }) {
           <NavLink to="/registration">Registration</NavLink>
         </button>
         <h2 id="abt">About Our Students</h2>
+        <form className="searchform" onSubmit={handleSearchStudent}>
+          <input
+            onChange={handleSearchStudent}
+            onBlur={handleSearchStudent}
+            className="input"
+            type="text"
+            id="search"
+          />
+          <button>
+            <FaSearch />
+          </button>
+        </form>
         <div className="studentCard">
+        <p>Result:<span id="error"></span></p>
           {students.map((student, index) => {
             return (
               <div className="card" key={index}>

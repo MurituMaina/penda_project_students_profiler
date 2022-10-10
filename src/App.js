@@ -21,7 +21,7 @@ function App() {
       .then((resp) => resp.json())
       .then(setVerses);
   }, []);
-  console.log(students);
+  // console.log(students);
   return (
     <div className="main">
       <NavBar />
@@ -30,7 +30,7 @@ function App() {
           <History />
         </Route>
         <Route path="/about">
-          <About students={students} />
+          <About students={students} setStudents={setStudents} />
         </Route>
         <Route path="/registration">
           <Registration />
