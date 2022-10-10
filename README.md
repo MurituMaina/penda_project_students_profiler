@@ -21,6 +21,9 @@ Install all the Dependecies via `npm install` on the terminal
 ## Execution of the Program
 Run the `npm start` on the terminal to launch the code on the browser
 
+## Usage
+The web app launches the Landing page with the touch of the Penda as an institution.  The Site allow to view current students and even add new Students. The site should allow search students.
+
 ## Help
 For any assistance and support you can reach me via email <link>vincentmuritumaina@gmail.com
 
