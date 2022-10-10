@@ -2,6 +2,8 @@
 ## Description
 This project aims at keeping track of students details and progress in their growth through school and even in the workplace. This is to support the aim to start a student track for all students current and former and know there progress.
 
+Access via: <link>https://pendaproject.netlify.app/history </link>
+
 ## Dependencies
 The project relies on this dependencies: 
 <ul>
