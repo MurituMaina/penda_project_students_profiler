@@ -15,6 +15,22 @@ function Registration() {
     job: "",
     employer: "",
   });
+  function resetForm() {
+    setStudents({
+      fname: "",
+      lname: "",
+      stdemail: "",
+      image: "",
+      year: "",
+      ageOnProject: "",
+      college: "",
+      course: "",
+      yearcompleted: "",
+      job: "",
+      employer: "",
+    });
+  }
+
   function handleStudentsInputs(event) {
     setStudents({ ...students, [event.target.name]: event.target.value });
   }
@@ -42,8 +58,6 @@ function Registration() {
       .then((response) => response.json())
       .then((data) => console.log(data))
       .catch((error) => console.log(error));
-    console.log(document.getElementsByClassName("form"));
-    setStudents([]);
   }
 
   return (
@@ -54,7 +68,7 @@ function Registration() {
       <h1>Student Registration details</h1>
 
       <div>
-        <form className="form " onSubmit={handleStudentDetails}>
+        <form className="form" onSubmit={handleStudentDetails}>
           <NavLink to="/about">
             <button className="closebtn_2">X</button>
           </NavLink>
@@ -112,11 +126,11 @@ function Registration() {
           <label>Course of Study</label>
           <br />
           <br />
-          <input 
+          <input
             type="text"
             name="course"
             value={students.course}
-            onChange ={handleStudentsInputs}
+            onChange={handleStudentsInputs}
           />
           <br />
           <br />
@@ -125,8 +139,8 @@ function Registration() {
           <br />
           <input
             type="number"
-            min ="2008"
-            max= "2100"
+            min="2008"
+            max="2100"
             name="year"
             value={students.year}
             onChange={handleStudentsInputs}
@@ -171,11 +185,11 @@ function Registration() {
           <label>Employer/Company</label>
           <br />
           <br />
-          <input 
+          <input
             type="text"
             name="employer"
             value={students.employer}
-            onChange ={handleStudentsInputs}
+            onChange={handleStudentsInputs}
           />
           <br />
           <br />
@@ -185,6 +199,7 @@ function Registration() {
           <br />
           <br />
           <input type="submit"></input>
+          <input type="reset" onClick={resetForm}></input>
         </form>
       </div>
     </div>
