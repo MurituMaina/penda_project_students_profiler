@@ -1,23 +1,25 @@
 {
   "verses": [
     {
-      "id":1,
+      "id": 1,
       "verse": "NET Bible: Give, and it will be given to you: A good measure, pressed down, shaken together, running over, will be poured into your lap. For the measure you use will be the measure you receive.",
       "ref": " Luke 6:38 ",
       "image": "./images/animal.jpeg"
     },
-    {"id":2,
+    {
+      "id": 2,
       "verse": "NET Bible: Give, and it will be given to you: A good measure, pressed down, shaken together, running over, will be poured into your lap. For the measure you use will be the measure you receive.",
       "ref": " Luke 6:38 ",
       "image": "./images/squirrel.jpeg"
     },
     {
-      "id":3,
+      "id": 3,
       "verse": "NET Bible: Give, and it will be given to you: A good measure, pressed down, shaken together, running over, will be poured into your lap. For the measure you use will be the measure you receive.",
       "ref": " Luke 6:38 ",
       "image": "./images/sunrise.jpeg"
     },
-    {"id":4,
+    {
+      "id": 4,
       "verse": "NET Bible: Give, and it will be given to you: A good measure, pressed down, shaken together, running over, will be poured into your lap. For the measure you use will be the measure you receive.",
       "ref": " Luke 6:38 ",
       "image": "./images/wave.jpeg"
@@ -293,114 +295,16 @@
     {
       "fname": "Donald",
       "lname": "Duck",
-      "stdemail": "vincentmuritumaina@gmail.com",
-      "image": "https://www.pngmart.com/files/22/Adam-Sandler-PNG-File.png",
-      "year": 2010,
-      "ageOnProject": 10,
-      "college": "Random University",
-      "completion": "2016",
-      "course": "Bsc. Human Resource",
-      "job": "HR assisstant",
-      "employer": "Here and there Ltd  ",
-      "id": 19
-    },
-    {
-      "fname": "Vincent",
-      "lname": "Murtiu ",
-      "stdemail": "exam@example.com",
-      "image": "https://www.pngmart.com/files/22/Xi-Jinping-PNG-File.png",
-      "year": 2010,
-      "ageOnProject": 10,
-      "college": "Random University",
-      "completion": "2016",
-      "course": "Bsc. Human Resource",
-      "job": "HR assisstant",
-      "employer": "Here and there Ltd  ",
-      "id": 20
-    },
-    {
-      "fname": "Vincent",
-      "lname": "Murtiu ",
-      "stdemail": "exam@example.com",
-      "image": "https://www.pngmart.com/files/22/Xi-Jinping-PNG-File.png",
-      "year": 2010,
-      "ageOnProject": 10,
-      "college": "Random University",
-      "completion": "2016",
-      "course": "Bsc. Human Resource",
-      "job": "HR assisstant",
-      "employer": "Here and there Ltd  ",
-      "id": 21
-    },
-    {
-      "fname": "Donald",
-      "lname": "Duck",
-      "stdemail": "exam@example.com",
-      "image": "https://www.pngmart.com/files/22/Xi-Jinping-PNG-File.png",
-      "year": 2010,
-      "ageOnProject": 10,
-      "college": "Random University",
-      "completion": "2016",
-      "course": "Bsc. Human Resource",
-      "job": "HR assisstant",
-      "employer": "Here and there Ltd  ",
-      "id": 22
-    },
-    {
-      "fname": "Donald",
-      "lname": "Duck",
-      "stdemail": "exam@example.com",
-      "image": "https://www.pngmart.com/files/22/Xi-Jinping-PNG-File.png",
-      "year": 2010,
-      "ageOnProject": 10,
-      "college": "Random University",
-      "completion": "2016",
-      "course": "Bsc. Human Resource",
-      "job": "HR assisstant",
-      "employer": "Here and there Ltd  ",
-      "id": 23
-    },
-    {
-      "fname": "Donald",
-      "lname": "Duck",
-      "stdemail": "exam@example.com",
-      "image": "https://www.pngmart.com/files/22/Xi-Jinping-PNG-File.png",
-      "year": 2010,
-      "ageOnProject": 10,
-      "college": "Random University",
-      "completion": "2016",
-      "course": "Bsc. Human Resource",
-      "job": "HR assisstant",
-      "employer": "Here and there Ltd  ",
-      "id": 24
-    },
-    {
-      "fname": "Donald",
-      "lname": "Duck",
       "image": "https://www.pngmart.com/files/22/Xi-Jinping-PNG-File.png",
       "stdemail": "exam@example.com",
-      "year": "",
-      "ageOnProject": "9",
+      "year": "2008",
+      "ageOnProject": "-1",
       "college": "Student College",
       "course": "Bsc. Mathematics ",
-      "yearcompleted": "",
-      "job": "Teacher",
-      "employer": "",
-      "id": 25
-    },
-    {
-      "fname": "Donald",
-      "lname": "Duck",
-      "image": "https://www.pngmart.com/files/22/Xi-Jinping-PNG-File.png",
-      "stdemail": "exam@example.com",
-      "year": "",
-      "ageOnProject": "10",
-      "college": "Student College",
-      "course": "Bsc. Mathematics ",
-      "yearcompleted": "",
+      "yearcompleted": "2008",
       "job": "Teacher",
       "employer": "Alliance",
-      "id": 26
+      "id": 19
     }
   ]
 }
