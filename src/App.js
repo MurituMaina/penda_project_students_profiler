@@ -8,16 +8,15 @@ import Home from "./Home";
 import NavBar from "./Navbar";
 import Registration from "./Registration";
 
-
 function App() {
   const [students, setStudents] = useState([]);
-  const[verses, setVerses] = useState([]);
+  const [verses, setVerses] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/student")
+    fetch("https://fast-fjord-58809.herokuapp.com/student")
       .then((resp) => resp.json())
       .then(setStudents);
 
-      fetch("http://localhost:3000/verses")
+    fetch("https://fast-fjord-58809.herokuapp.com/verses")
       .then((resp) => resp.json())
       .then(setVerses);
   }, []);
@@ -36,7 +35,7 @@ function App() {
           <Registration />
         </Route>
         <Route path="/">
-          <Home verses={verses}/>
+          <Home verses={verses} />
         </Route>
       </Switch>
       <Footer />

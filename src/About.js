@@ -31,7 +31,7 @@ function About({ students, setStudents }) {
            newStudents.push(student)
            return setStudents(newStudents)
         }
-       
+       return 0;
       });
     }
       console.log(newStudents);
