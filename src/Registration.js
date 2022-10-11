@@ -36,7 +36,7 @@ function Registration() {
   }
   function handleStudentDetails(e) {
     e.preventDefault();
-    fetch("http://localhost:3000/student", {
+    fetch("https://fast-fjord-58809.herokuapp.com/student", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
